@@ -12,7 +12,11 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-  'dracula/vim',
+  {
+    'Mofiqul/dracula.nvim',
+    lazy = false,
+    priority = 1000
+  },
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
   'nvim-lualine/lualine.nvim',
