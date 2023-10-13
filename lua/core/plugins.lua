@@ -26,6 +26,7 @@ local plugins = {
   'L3MON4D3/LuaSnip',
   'saadparwaiz1/cmp_luasnip',
   'rafamadriz/friendly-snippets',
+  'christoomey/vim-tmux-navigator',
   'williamboman/mason.nvim',
   'williamboman/mason-lspconfig.nvim',
   'lewis6991/gitsigns.nvim',
